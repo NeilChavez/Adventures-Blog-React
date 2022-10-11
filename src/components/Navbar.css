@@ -1,0 +1,29 @@
+.header {
+  background-color: rgb(251, 179, 179);
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+}
+.link-logo {
+  font-size: 2.5rem;
+  text-decoration: none;
+  color: rgb(57, 87, 220);
+}
+
+.navbar-icon {
+  cursor: pointer;
+  width: 2.5rem;
+  height: 2.5rem;
+position: relative;
+}
+.fa-x,
+.fa-bars {
+  font-size: 2.5rem;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%)
+}
+.none {
+  display: none;
+}
