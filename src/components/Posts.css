@@ -1,0 +1,7 @@
+.posts-section{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 2rem;
+    border: thick solid yellowgreen;
+    padding: 5rem 0; 
+}

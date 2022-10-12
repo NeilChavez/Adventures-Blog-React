@@ -1,0 +1,8 @@
+.date-field{
+    border: thin solid #fff;
+    color: #fff;
+    background-color: rgb(38, 38, 38);
+    padding: 0.5rem 1rem;
+    width: fit-content;
+    border-radius: 15px;
+}
