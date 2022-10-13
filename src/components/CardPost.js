@@ -14,7 +14,7 @@ export default function CardPost({
 }) {
 
   let cityCapitalized = capitalizeCity(name)
-  let thumbnailsUrl = `./assets/citiesimages/${name}01.jpeg`
+  let thumbnailsUrl = `./assets/citiesImages/${name}01.jpeg`
   return (
     <Link to={`/${name}`}>
       <figure className="card-post">
