@@ -1,21 +1,32 @@
 import "./CardPost.css";
 import DateField from "./DateField";
 import { Link } from "react-router-dom";
+import {capitalizeCity} from "../services/capitalizeCity"
 
-export default function CardPost() {
+export default function CardPost({
+  country,
+  department,
+  info,
+  name,
+  population,
+  region,
+  thumbnails,
+}) {
+
+  let cityCapitalized = capitalizeCity(name)
+  let thumbnailsUrl = `./assets/citiesimages/${name}01.jpeg`
   return (
-    <Link to="/:city">
+    <Link to={`/${name}`}>
       <figure className="card-post">
         <img
           className="card-image"
-          src="https://www.placeimg.com/300/304/any"
-          alt="random"
+          src={thumbnailsUrl}
+          alt={name}
         />
         <figcaption className="card-description">
-          <h3 className="card-title">Titolo</h3>
+          <h3 className="card-title">{cityCapitalized}</h3>
           <p className="card-paragraph">
-            Reference site about Lorem Ipsum, giving information on its origins,
-            as well as a random Lipsum generator.¯
+          {info}
           </p>
         </figcaption>
         <DateField date={"22-08-2022"} />
