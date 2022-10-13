@@ -15,8 +15,18 @@ body {
 img{
   max-width: 100%;
 }
+li{
+  list-style-type: none;
+}
 .container{
   max-width: 768px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+.container-m{
+  max-width: 1024px;
   margin-left: auto;
   margin-right: auto;
 }
