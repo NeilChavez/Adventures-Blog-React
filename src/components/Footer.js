@@ -12,8 +12,8 @@ export default function Footer() {
             <b>Neil</b>
           </Link>
           <ul className="footer-nav-list">
-            {categories.map((el) => (
-              <li>{el}</li>
+            {categories.map((el, index) => (
+              <li key={index}>{el}</li>
             ))}
           </ul>
         </div>

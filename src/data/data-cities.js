@@ -4,7 +4,7 @@ export const cities = [
     country: "France",
     region: "Île-de-France",
     department: "Paris",
-    population: "	2,165,423",
+    population: "	2,165,eww423",
     thumbnails: [
       "./assets/citiesimages/paris01.jpeg",
       "./assets/citiesimages/paris02.jpeg",
@@ -21,7 +21,7 @@ Paris hosts several United Nations organisations including UNESCO, and other int
     country: "FRA",
     region: "Île-de-France",
     department: "Paris",
-    population: "	2,165,423",
+    population: "	2,165,42ewf3",
     thumbnails: [
       "./assets/citiesimages/paris01.jpeg",
       "./assets/citiesimages/paris02.jpeg",
@@ -38,7 +38,7 @@ Paris hosts several United Nations organisations including UNESCO, and other int
     country: "France",
     region: "Île-de-France",
     department: "Paris",
-    population: "2,165,423",
+    population: "2,165,4wevvev23",
     date: "03.07.2022",
     thumbnails: [
       "./assets/citiesimages/paris01.jpeg",
@@ -58,7 +58,7 @@ Paris hosts several United Nations organisations including UNESCO, and other int
     country: "France",
     region: "Île-de-France",
     department: "Paris",
-    population: "	2,165,423",
+    population: "	2,165,iuy423",
     thumbnails: [
       "./assets/citiesimages/paris01.jpeg",
       "./assets/citiesimages/paris02.jpeg",
@@ -75,7 +75,7 @@ Paris hosts several United Nations organisations including UNESCO, and other int
     country: "France",
     region: "Île-de-France",
     department: "Paris",
-    population: "	2,165,423",
+    population: "	2,165,4oiuh23",
     thumbnails: [
       "./assets/citiesimages/paris01.jpeg",
       "./assets/citiesimages/paris02.jpeg",
@@ -88,11 +88,11 @@ Paris is a major railway, highway, and air-transport hub served by two internati
 Paris hosts several United Nations organisations including UNESCO, and other international organisations such as the OECD, the OECD Development Centre, the International Bureau of Weights and Measures, the International Energy Agency, the International Federation for Human Rights, along with European bodies such as the European Space Agency, the European Banking Authority or the European Securities and Markets Authority. The football club Paris Saint-Germain and the rugby union club Stade Français are based in Paris. The 80,000-seat Stade de France, built for the 1998 FIFA World Cup, is located just north of Paris in the neighbouring commune of Saint-Denis. Paris hosts the annual French Open Grand Slam tennis tournament on the red clay of Roland Garros. The city hosted the Olympic Games in 1900, 1924 and will host the 2024 Summer Olympics. The 1938 and 1998 FIFA World Cups, the 2007 Rugby World Cup, as well as the 1960, 1984 and 2016 UEFA European Championships were also held in the city. Every July, the Tour de France bicycle race finishes on the Avenue des Champs-Élysées in Paris.`,
   },
   {
-    name: "milano",
+    name: "milan",
     country: "France",
     region: "Île-de-France",
     department: "Paris",
-    population: "	2,165,423",
+    population: "	2,165,423poiuy",
     thumbnails: [
       "./assets/citiesimages/paris01.jpeg",
       "./assets/citiesimages/paris02.jpeg",
@@ -109,7 +109,7 @@ Paris hosts several United Nations organisations including UNESCO, and other int
     country: "France",
     region: "Île-de-France",
     department: "Paris",
-    population: "	2,165,423",
+    population: "	2,165,42098yg3",
     thumbnails: [
       "./assets/citiesimages/paris01.jpeg",
       "./assets/citiesimages/paris02.jpeg",
@@ -127,7 +127,7 @@ Paris hosts several United Nations organisations including UNESCO, and other int
     country: "France",
     region: "Île-de-France",
     department: "Paris",
-    population: "	2,165,423",
+    population: "	2,165,12345423",
     thumbnails: [
       "./assets/citiesimages/paris01.jpeg",
       "./assets/citiesimages/paris02.jpeg",
@@ -144,7 +144,7 @@ Paris hosts several United Nations organisations including UNESCO, and other int
     country: "France",
     region: "Île-de-France",
     department: "Paris",
-    population: "	2,165,423",
+    population: "	2,165,42moondnwqd3",
     thumbnails: [
       "./assets/citiesimages/paris01.jpeg",
       "./assets/citiesimages/paris02.jpeg",
@@ -162,7 +162,7 @@ Paris hosts several United Nations organisations including UNESCO, and other int
     country: "France",
     region: "Île-de-France",
     department: "Paris",
-    population: "	2,165,423",
+    population: "	2,165,42j183hr3",
     thumbnails: [
       "./assets/citiesimages/paris01.jpeg",
       "./assets/citiesimages/paris02.jpeg",
@@ -179,7 +179,7 @@ Paris hosts several United Nations organisations including UNESCO, and other int
     country: "France",
     region: "Île-de-France",
     department: "Paris",
-    population: "	2,165,423",
+    population: "	2,165,fwf",
     thumbnails: [
       "./assets/citiesimages/paris01.jpeg",
       "./assets/citiesimages/paris02.jpeg",
