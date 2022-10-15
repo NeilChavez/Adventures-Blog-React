@@ -6,11 +6,11 @@ export const cities = [
     department: "Paris",
     population: "	2,165,eww423",
     thumbnails: [
-      "./assets/citiesImages/paris01.jpeg",
-      "./assets/citiesImages/paris02.jpeg",
-      "./assets/citiesImages/paris03.jpeg",
-      "./assets/citiesImages/paris04.jpeg",
-      "./assets/citiesImages/paris05.jpeg",
+      "/assets/citiesImages/paris01.jpeg",
+      "/assets/citiesImages/paris02.jpeg",
+      "/assets/citiesImages/paris03.jpeg",
+      "/assets/citiesImages/paris04.jpeg",
+      "/assets/citiesImages/paris05.jpeg",
     ],
     info: `Paris (French pronunciation: (listen)) is the capital and most populous city of France, with an estimated population of 2,165,423 residents in 2019 in an area of more than 105 km² (41 sq mi),[4] making it the 34th most densely populated city in the world in 2020.[5] Since the 17th century, Paris has been one of the world's major centres of finance, diplomacy, commerce, fashion, gastronomy, and science. For its leading role in the arts and sciences, as well as its very early system of street lighting, in the 19th century it became known as "the City of Light".[6] Like London, prior to the Second World War, it was also sometimes called the capital of the world. The City of Paris is the centre of the region and province of Île-de-France, or Paris Region, with an estimated population of 12,262,544 in 2019, or about 19% of the population of France.[7] The Paris Region had a GDP of €739 billion ($743 billion) in 2019, which is the highest in Europe.[8] According to the Economist Intelligence Unit Worldwide Cost of Living Survey, in 2021, Paris was the city with the second-highest cost of living in the world, tied with Singapore, and after Tel Aviv. [12]
 Paris is a major railway, highway, and air-transport hub served by two international airports: Paris–Charles de Gaulle (the second-busiest airport in Europe) and Paris–Orly.[10][11] Opened in 1900, the city's subway system, the Paris Métro, serves 5.23 million passengers daily;[12] it is the second-busiest metro system in Europe after the Moscow Metro. Gare du Nord is the 24th-busiest railway station in the world and the busiest located outside Japan, with 262 million passengers in 2015.[13] Paris is especially known for its museums and architectural landmarks: the Louvre received 2.8 million visitors in 2021, despite the long museum closings caused by the COVID-19 virus.[14] The Musée d'Orsay, Musée Marmottan Monet and Musée de l'Orangerie are noted for their collections of French Impressionist art. The Pompidou Centre Musée National d'Art Moderne has the largest collection of modern and contemporary art in Europe. The Musée Rodin and Musée Picasso exhibit the works of two noted Parisians. The historical district along the Seine in the city centre has been classified as a UNESCO World Heritage Site since 1991; popular landmarks there include the Cathedral of Notre Dame de Paris on the Île de la Cité, now closed for renovation after the 15 April 2019 fire. Other popular tourist sites include the Gothic royal chapel of Sainte-Chapelle, also on the Île de la Cité; the Eiffel Tower, constructed for the Paris Universal Exposition of 1889; the Grand Palais and Petit Palais, built for the Paris Universal Exposition of 1900; the Arc de Triomphe on the Champs-Élysées, and the hill of Montmartre with its artistic history and its Basilica of Sacré-Coeur.
@@ -23,11 +23,11 @@ Paris hosts several United Nations organisations including UNESCO, and other int
     department: "Paris",
     population: "	2,165,42ewf3",
     thumbnails: [
-      "./assets/citiesImages/paris01.jpeg",
-      "./assets/citiesImages/paris02.jpeg",
-      "./assets/citiesImages/paris03.jpeg",
-      "./assets/citiesImages/paris04.jpeg",
-      "./assets/citiesImages/paris05.jpeg",
+      "/assets/citiesImages/paris01.jpeg",
+      "/assets/citiesImages/paris02.jpeg",
+      "/assets/citiesImages/paris03.jpeg",
+      "/assets/citiesImages/paris04.jpeg",
+      "/assets/citiesImages/paris05.jpeg",
     ],
     info: `Paris (French pronunciation: (listen)) is the capital and most populous city of France, with an estimated population of 2,165,423 residents in 2019 in an area of more than 105 km² (41 sq mi),[4] making it the 34th most densely populated city in the world in 2020.[5] Since the 17th century, Paris has been one of the world's major centres of finance, diplomacy, commerce, fashion, gastronomy, and science. For its leading role in the arts and sciences, as well as its very early system of street lighting, in the 19th century it became known as "the City of Light".[6] Like London, prior to the Second World War, it was also sometimes called the capital of the world. The City of Paris is the centre of the region and province of Île-de-France, or Paris Region, with an estimated population of 12,262,544 in 2019, or about 19% of the population of France.[7] The Paris Region had a GDP of €739 billion ($743 billion) in 2019, which is the highest in Europe.[8] According to the Economist Intelligence Unit Worldwide Cost of Living Survey, in 2021, Paris was the city with the second-highest cost of living in the world, tied with Singapore, and after Tel Aviv. [12]
 Paris is a major railway, highway, and air-transport hub served by two international airports: Paris–Charles de Gaulle (the second-busiest airport in Europe) and Paris–Orly.[10][11] Opened in 1900, the city's subway system, the Paris Métro, serves 5.23 million passengers daily;[12] it is the second-busiest metro system in Europe after the Moscow Metro. Gare du Nord is the 24th-busiest railway station in the world and the busiest located outside Japan, with 262 million passengers in 2015.[13] Paris is especially known for its museums and architectural landmarks: the Louvre received 2.8 million visitors in 2021, despite the long museum closings caused by the COVID-19 virus.[14] The Musée d'Orsay, Musée Marmottan Monet and Musée de l'Orangerie are noted for their collections of French Impressionist art. The Pompidou Centre Musée National d'Art Moderne has the largest collection of modern and contemporary art in Europe. The Musée Rodin and Musée Picasso exhibit the works of two noted Parisians. The historical district along the Seine in the city centre has been classified as a UNESCO World Heritage Site since 1991; popular landmarks there include the Cathedral of Notre Dame de Paris on the Île de la Cité, now closed for renovation after the 15 April 2019 fire. Other popular tourist sites include the Gothic royal chapel of Sainte-Chapelle, also on the Île de la Cité; the Eiffel Tower, constructed for the Paris Universal Exposition of 1889; the Grand Palais and Petit Palais, built for the Paris Universal Exposition of 1900; the Arc de Triomphe on the Champs-Élysées, and the hill of Montmartre with its artistic history and its Basilica of Sacré-Coeur.
@@ -41,11 +41,11 @@ Paris hosts several United Nations organisations including UNESCO, and other int
     population: "2,165,4wevvev23",
     date: "03.07.2022",
     thumbnails: [
-      "./assets/citiesImages/paris01.jpeg",
-      "./assets/citiesImages/paris02.jpeg",
-      "./assets/citiesImages/paris03.jpeg",
-      "./assets/citiesImages/paris04.jpeg",
-      "./assets/citiesImages/paris05.jpeg",
+      "/assets/citiesImages/paris01.jpeg",
+      "/assets/citiesImages/paris02.jpeg",
+      "/assets/citiesImages/paris03.jpeg",
+      "/assets/citiesImages/paris04.jpeg",
+      "/assets/citiesImages/paris05.jpeg",
     ],
     description: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum distinctio provident aspernatur dicta dolor culpa
     animi architecto debitis consequatur porro, aliquam delectus veniam beatae atque nemo, rem fugit consectetur sequi!`,
@@ -60,11 +60,11 @@ Paris hosts several United Nations organisations including UNESCO, and other int
     department: "Paris",
     population: "	2,165,iuy423",
     thumbnails: [
-      "./assets/citiesImages/paris01.jpeg",
-      "./assets/citiesImages/paris02.jpeg",
-      "./assets/citiesImages/paris03.jpeg",
-      "./assets/citiesImages/paris04.jpeg",
-      "./assets/citiesImages/paris05.jpeg",
+      "/assets/citiesImages/paris01.jpeg",
+      "/assets/citiesImages/paris02.jpeg",
+      "/assets/citiesImages/paris03.jpeg",
+      "/assets/citiesImages/paris04.jpeg",
+      "/assets/citiesImages/paris05.jpeg",
     ],
     info: `Paris (French pronunciation: (listen)) is the capital and most populous city of France, with an estimated population of 2,165,423 residents in 2019 in an area of more than 105 km² (41 sq mi),[4] making it the 34th most densely populated city in the world in 2020.[5] Since the 17th century, Paris has been one of the world's major centres of finance, diplomacy, commerce, fashion, gastronomy, and science. For its leading role in the arts and sciences, as well as its very early system of street lighting, in the 19th century it became known as "the City of Light".[6] Like London, prior to the Second World War, it was also sometimes called the capital of the world. The City of Paris is the centre of the region and province of Île-de-France, or Paris Region, with an estimated population of 12,262,544 in 2019, or about 19% of the population of France.[7] The Paris Region had a GDP of €739 billion ($743 billion) in 2019, which is the highest in Europe.[8] According to the Economist Intelligence Unit Worldwide Cost of Living Survey, in 2021, Paris was the city with the second-highest cost of living in the world, tied with Singapore, and after Tel Aviv. [12]
 Paris is a major railway, highway, and air-transport hub served by two international airports: Paris–Charles de Gaulle (the second-busiest airport in Europe) and Paris–Orly.[10][11] Opened in 1900, the city's subway system, the Paris Métro, serves 5.23 million passengers daily;[12] it is the second-busiest metro system in Europe after the Moscow Metro. Gare du Nord is the 24th-busiest railway station in the world and the busiest located outside Japan, with 262 million passengers in 2015.[13] Paris is especially known for its museums and architectural landmarks: the Louvre received 2.8 million visitors in 2021, despite the long museum closings caused by the COVID-19 virus.[14] The Musée d'Orsay, Musée Marmottan Monet and Musée de l'Orangerie are noted for their collections of French Impressionist art. The Pompidou Centre Musée National d'Art Moderne has the largest collection of modern and contemporary art in Europe. The Musée Rodin and Musée Picasso exhibit the works of two noted Parisians. The historical district along the Seine in the city centre has been classified as a UNESCO World Heritage Site since 1991; popular landmarks there include the Cathedral of Notre Dame de Paris on the Île de la Cité, now closed for renovation after the 15 April 2019 fire. Other popular tourist sites include the Gothic royal chapel of Sainte-Chapelle, also on the Île de la Cité; the Eiffel Tower, constructed for the Paris Universal Exposition of 1889; the Grand Palais and Petit Palais, built for the Paris Universal Exposition of 1900; the Arc de Triomphe on the Champs-Élysées, and the hill of Montmartre with its artistic history and its Basilica of Sacré-Coeur.
@@ -77,11 +77,11 @@ Paris hosts several United Nations organisations including UNESCO, and other int
     department: "Paris",
     population: "	2,165,4oiuh23",
     thumbnails: [
-      "./assets/citiesImages/paris01.jpeg",
-      "./assets/citiesImages/paris02.jpeg",
-      "./assets/citiesImages/paris03.jpeg",
-      "./assets/citiesImages/paris04.jpeg",
-      "./assets/citiesImages/paris05.jpeg",
+      "/assets/citiesImages/paris01.jpeg",
+      "/assets/citiesImages/paris02.jpeg",
+      "/assets/citiesImages/paris03.jpeg",
+      "/assets/citiesImages/paris04.jpeg",
+      "/assets/citiesImages/paris05.jpeg",
     ],
     info: `Paris (French pronunciation: (listen)) is the capital and most populous city of France, with an estimated population of 2,165,423 residents in 2019 in an area of more than 105 km² (41 sq mi),[4] making it the 34th most densely populated city in the world in 2020.[5] Since the 17th century, Paris has been one of the world's major centres of finance, diplomacy, commerce, fashion, gastronomy, and science. For its leading role in the arts and sciences, as well as its very early system of street lighting, in the 19th century it became known as "the City of Light".[6] Like London, prior to the Second World War, it was also sometimes called the capital of the world. The City of Paris is the centre of the region and province of Île-de-France, or Paris Region, with an estimated population of 12,262,544 in 2019, or about 19% of the population of France.[7] The Paris Region had a GDP of €739 billion ($743 billion) in 2019, which is the highest in Europe.[8] According to the Economist Intelligence Unit Worldwide Cost of Living Survey, in 2021, Paris was the city with the second-highest cost of living in the world, tied with Singapore, and after Tel Aviv. [12]
 Paris is a major railway, highway, and air-transport hub served by two international airports: Paris–Charles de Gaulle (the second-busiest airport in Europe) and Paris–Orly.[10][11] Opened in 1900, the city's subway system, the Paris Métro, serves 5.23 million passengers daily;[12] it is the second-busiest metro system in Europe after the Moscow Metro. Gare du Nord is the 24th-busiest railway station in the world and the busiest located outside Japan, with 262 million passengers in 2015.[13] Paris is especially known for its museums and architectural landmarks: the Louvre received 2.8 million visitors in 2021, despite the long museum closings caused by the COVID-19 virus.[14] The Musée d'Orsay, Musée Marmottan Monet and Musée de l'Orangerie are noted for their collections of French Impressionist art. The Pompidou Centre Musée National d'Art Moderne has the largest collection of modern and contemporary art in Europe. The Musée Rodin and Musée Picasso exhibit the works of two noted Parisians. The historical district along the Seine in the city centre has been classified as a UNESCO World Heritage Site since 1991; popular landmarks there include the Cathedral of Notre Dame de Paris on the Île de la Cité, now closed for renovation after the 15 April 2019 fire. Other popular tourist sites include the Gothic royal chapel of Sainte-Chapelle, also on the Île de la Cité; the Eiffel Tower, constructed for the Paris Universal Exposition of 1889; the Grand Palais and Petit Palais, built for the Paris Universal Exposition of 1900; the Arc de Triomphe on the Champs-Élysées, and the hill of Montmartre with its artistic history and its Basilica of Sacré-Coeur.
@@ -94,11 +94,11 @@ Paris hosts several United Nations organisations including UNESCO, and other int
     department: "Paris",
     population: "	2,165,423poiuy",
     thumbnails: [
-      "./assets/citiesImages/paris01.jpeg",
-      "./assets/citiesImages/paris02.jpeg",
-      "./assets/citiesImages/paris03.jpeg",
-      "./assets/citiesImages/paris04.jpeg",
-      "./assets/citiesImages/paris05.jpeg",
+      "/assets/citiesImages/paris01.jpeg",
+      "/assets/citiesImages/paris02.jpeg",
+      "/assets/citiesImages/paris03.jpeg",
+      "/assets/citiesImages/paris04.jpeg",
+      "/assets/citiesImages/paris05.jpeg",
     ],
     info: `Paris (French pronunciation: (listen)) is the capital and most populous city of France, with an estimated population of 2,165,423 residents in 2019 in an area of more than 105 km² (41 sq mi),[4] making it the 34th most densely populated city in the world in 2020.[5] Since the 17th century, Paris has been one of the world's major centres of finance, diplomacy, commerce, fashion, gastronomy, and science. For its leading role in the arts and sciences, as well as its very early system of street lighting, in the 19th century it became known as "the City of Light".[6] Like London, prior to the Second World War, it was also sometimes called the capital of the world. The City of Paris is the centre of the region and province of Île-de-France, or Paris Region, with an estimated population of 12,262,544 in 2019, or about 19% of the population of France.[7] The Paris Region had a GDP of €739 billion ($743 billion) in 2019, which is the highest in Europe.[8] According to the Economist Intelligence Unit Worldwide Cost of Living Survey, in 2021, Paris was the city with the second-highest cost of living in the world, tied with Singapore, and after Tel Aviv. [12]
 Paris is a major railway, highway, and air-transport hub served by two international airports: Paris–Charles de Gaulle (the second-busiest airport in Europe) and Paris–Orly.[10][11] Opened in 1900, the city's subway system, the Paris Métro, serves 5.23 million passengers daily;[12] it is the second-busiest metro system in Europe after the Moscow Metro. Gare du Nord is the 24th-busiest railway station in the world and the busiest located outside Japan, with 262 million passengers in 2015.[13] Paris is especially known for its museums and architectural landmarks: the Louvre received 2.8 million visitors in 2021, despite the long museum closings caused by the COVID-19 virus.[14] The Musée d'Orsay, Musée Marmottan Monet and Musée de l'Orangerie are noted for their collections of French Impressionist art. The Pompidou Centre Musée National d'Art Moderne has the largest collection of modern and contemporary art in Europe. The Musée Rodin and Musée Picasso exhibit the works of two noted Parisians. The historical district along the Seine in the city centre has been classified as a UNESCO World Heritage Site since 1991; popular landmarks there include the Cathedral of Notre Dame de Paris on the Île de la Cité, now closed for renovation after the 15 April 2019 fire. Other popular tourist sites include the Gothic royal chapel of Sainte-Chapelle, also on the Île de la Cité; the Eiffel Tower, constructed for the Paris Universal Exposition of 1889; the Grand Palais and Petit Palais, built for the Paris Universal Exposition of 1900; the Arc de Triomphe on the Champs-Élysées, and the hill of Montmartre with its artistic history and its Basilica of Sacré-Coeur.
@@ -111,11 +111,11 @@ Paris hosts several United Nations organisations including UNESCO, and other int
     department: "Paris",
     population: "	2,165,42098yg3",
     thumbnails: [
-      "./assets/citiesImages/paris01.jpeg",
-      "./assets/citiesImages/paris02.jpeg",
-      "./assets/citiesImages/paris03.jpeg",
-      "./assets/citiesImages/paris04.jpeg",
-      "./assets/citiesImages/paris05.jpeg",
+      "/assets/citiesImages/paris01.jpeg",
+      "/assets/citiesImages/paris02.jpeg",
+      "/assets/citiesImages/paris03.jpeg",
+      "/assets/citiesImages/paris04.jpeg",
+      "/assets/citiesImages/paris05.jpeg",
     ],
     info: `Paris (French pronunciation: (listen)) is the capital and most populous city of France, with an estimated population of 2,165,423 residents in 2019 in an area of more than 105 km² (41 sq mi),[4] making it the 34th most densely populated city in the world in 2020.[5] Since the 17th century, Paris has been one of the world's major centres of finance, diplomacy, commerce, fashion, gastronomy, and science. For its leading role in the arts and sciences, as well as its very early system of street lighting, in the 19th century it became known as "the City of Light".[6] Like London, prior to the Second World War, it was also sometimes called the capital of the world. The City of Paris is the centre of the region and province of Île-de-France, or Paris Region, with an estimated population of 12,262,544 in 2019, or about 19% of the population of France.[7] The Paris Region had a GDP of €739 billion ($743 billion) in 2019, which is the highest in Europe.[8] According to the Economist Intelligence Unit Worldwide Cost of Living Survey, in 2021, Paris was the city with the second-highest cost of living in the world, tied with Singapore, and after Tel Aviv. [12]
 Paris is a major railway, highway, and air-transport hub served by two international airports: Paris–Charles de Gaulle (the second-busiest airport in Europe) and Paris–Orly.[10][11] Opened in 1900, the city's subway system, the Paris Métro, serves 5.23 million passengers daily;[12] it is the second-busiest metro system in Europe after the Moscow Metro. Gare du Nord is the 24th-busiest railway station in the world and the busiest located outside Japan, with 262 million passengers in 2015.[13] Paris is especially known for its museums and architectural landmarks: the Louvre received 2.8 million visitors in 2021, despite the long museum closings caused by the COVID-19 virus.[14] The Musée d'Orsay, Musée Marmottan Monet and Musée de l'Orangerie are noted for their collections of French Impressionist art. The Pompidou Centre Musée National d'Art Moderne has the largest collection of modern and contemporary art in Europe. The Musée Rodin and Musée Picasso exhibit the works of two noted Parisians. The historical district along the Seine in the city centre has been classified as a UNESCO World Heritage Site since 1991; popular landmarks there include the Cathedral of Notre Dame de Paris on the Île de la Cité, now closed for renovation after the 15 April 2019 fire. Other popular tourist sites include the Gothic royal chapel of Sainte-Chapelle, also on the Île de la Cité; the Eiffel Tower, constructed for the Paris Universal Exposition of 1889; the Grand Palais and Petit Palais, built for the Paris Universal Exposition of 1900; the Arc de Triomphe on the Champs-Élysées, and the hill of Montmartre with its artistic history and its Basilica of Sacré-Coeur.
@@ -129,11 +129,11 @@ Paris hosts several United Nations organisations including UNESCO, and other int
     department: "Paris",
     population: "	2,165,12345423",
     thumbnails: [
-      "./assets/citiesImages/paris01.jpeg",
-      "./assets/citiesImages/paris02.jpeg",
-      "./assets/citiesImages/paris03.jpeg",
-      "./assets/citiesImages/paris04.jpeg",
-      "./assets/citiesImages/paris05.jpeg",
+      "/assets/citiesImages/paris01.jpeg",
+      "/assets/citiesImages/paris02.jpeg",
+      "/assets/citiesImages/paris03.jpeg",
+      "/assets/citiesImages/paris04.jpeg",
+      "/assets/citiesImages/paris05.jpeg",
     ],
     info: `Paris (French pronunciation: (listen)) is the capital and most populous city of France, with an estimated population of 2,165,423 residents in 2019 in an area of more than 105 km² (41 sq mi),[4] making it the 34th most densely populated city in the world in 2020.[5] Since the 17th century, Paris has been one of the world's major centres of finance, diplomacy, commerce, fashion, gastronomy, and science. For its leading role in the arts and sciences, as well as its very early system of street lighting, in the 19th century it became known as "the City of Light".[6] Like London, prior to the Second World War, it was also sometimes called the capital of the world. The City of Paris is the centre of the region and province of Île-de-France, or Paris Region, with an estimated population of 12,262,544 in 2019, or about 19% of the population of France.[7] The Paris Region had a GDP of €739 billion ($743 billion) in 2019, which is the highest in Europe.[8] According to the Economist Intelligence Unit Worldwide Cost of Living Survey, in 2021, Paris was the city with the second-highest cost of living in the world, tied with Singapore, and after Tel Aviv. [12]
 Paris is a major railway, highway, and air-transport hub served by two international airports: Paris–Charles de Gaulle (the second-busiest airport in Europe) and Paris–Orly.[10][11] Opened in 1900, the city's subway system, the Paris Métro, serves 5.23 million passengers daily;[12] it is the second-busiest metro system in Europe after the Moscow Metro. Gare du Nord is the 24th-busiest railway station in the world and the busiest located outside Japan, with 262 million passengers in 2015.[13] Paris is especially known for its museums and architectural landmarks: the Louvre received 2.8 million visitors in 2021, despite the long museum closings caused by the COVID-19 virus.[14] The Musée d'Orsay, Musée Marmottan Monet and Musée de l'Orangerie are noted for their collections of French Impressionist art. The Pompidou Centre Musée National d'Art Moderne has the largest collection of modern and contemporary art in Europe. The Musée Rodin and Musée Picasso exhibit the works of two noted Parisians. The historical district along the Seine in the city centre has been classified as a UNESCO World Heritage Site since 1991; popular landmarks there include the Cathedral of Notre Dame de Paris on the Île de la Cité, now closed for renovation after the 15 April 2019 fire. Other popular tourist sites include the Gothic royal chapel of Sainte-Chapelle, also on the Île de la Cité; the Eiffel Tower, constructed for the Paris Universal Exposition of 1889; the Grand Palais and Petit Palais, built for the Paris Universal Exposition of 1900; the Arc de Triomphe on the Champs-Élysées, and the hill of Montmartre with its artistic history and its Basilica of Sacré-Coeur.
@@ -146,11 +146,11 @@ Paris hosts several United Nations organisations including UNESCO, and other int
     department: "Paris",
     population: "	2,165,42moondnwqd3",
     thumbnails: [
-      "./assets/citiesImages/paris01.jpeg",
-      "./assets/citiesImages/paris02.jpeg",
-      "./assets/citiesImages/paris03.jpeg",
-      "./assets/citiesImages/paris04.jpeg",
-      "./assets/citiesImages/paris05.jpeg",
+      "/assets/citiesImages/paris01.jpeg",
+      "/assets/citiesImages/paris02.jpeg",
+      "/assets/citiesImages/paris03.jpeg",
+      "/assets/citiesImages/paris04.jpeg",
+      "/assets/citiesImages/paris05.jpeg",
     ],
     info: `Paris (French pronunciation: (listen)) is the capital and most populous city of France, with an estimated population of 2,165,423 residents in 2019 in an area of more than 105 km² (41 sq mi),[4] making it the 34th most densely populated city in the world in 2020.[5] Since the 17th century, Paris has been one of the world's major centres of finance, diplomacy, commerce, fashion, gastronomy, and science. For its leading role in the arts and sciences, as well as its very early system of street lighting, in the 19th century it became known as "the City of Light".[6] Like London, prior to the Second World War, it was also sometimes called the capital of the world. The City of Paris is the centre of the region and province of Île-de-France, or Paris Region, with an estimated population of 12,262,544 in 2019, or about 19% of the population of France.[7] The Paris Region had a GDP of €739 billion ($743 billion) in 2019, which is the highest in Europe.[8] According to the Economist Intelligence Unit Worldwide Cost of Living Survey, in 2021, Paris was the city with the second-highest cost of living in the world, tied with Singapore, and after Tel Aviv. [12]
 Paris is a major railway, highway, and air-transport hub served by two international airports: Paris–Charles de Gaulle (the second-busiest airport in Europe) and Paris–Orly.[10][11] Opened in 1900, the city's subway system, the Paris Métro, serves 5.23 million passengers daily;[12] it is the second-busiest metro system in Europe after the Moscow Metro. Gare du Nord is the 24th-busiest railway station in the world and the busiest located outside Japan, with 262 million passengers in 2015.[13] Paris is especially known for its museums and architectural landmarks: the Louvre received 2.8 million visitors in 2021, despite the long museum closings caused by the COVID-19 virus.[14] The Musée d'Orsay, Musée Marmottan Monet and Musée de l'Orangerie are noted for their collections of French Impressionist art. The Pompidou Centre Musée National d'Art Moderne has the largest collection of modern and contemporary art in Europe. The Musée Rodin and Musée Picasso exhibit the works of two noted Parisians. The historical district along the Seine in the city centre has been classified as a UNESCO World Heritage Site since 1991; popular landmarks there include the Cathedral of Notre Dame de Paris on the Île de la Cité, now closed for renovation after the 15 April 2019 fire. Other popular tourist sites include the Gothic royal chapel of Sainte-Chapelle, also on the Île de la Cité; the Eiffel Tower, constructed for the Paris Universal Exposition of 1889; the Grand Palais and Petit Palais, built for the Paris Universal Exposition of 1900; the Arc de Triomphe on the Champs-Élysées, and the hill of Montmartre with its artistic history and its Basilica of Sacré-Coeur.
@@ -164,11 +164,11 @@ Paris hosts several United Nations organisations including UNESCO, and other int
     department: "Paris",
     population: "	2,165,42j183hr3",
     thumbnails: [
-      "./assets/citiesImages/paris01.jpeg",
-      "./assets/citiesImages/paris02.jpeg",
-      "./assets/citiesImages/paris03.jpeg",
-      "./assets/citiesImages/paris04.jpeg",
-      "./assets/citiesImages/paris05.jpeg",
+      "/assets/citiesImages/paris01.jpeg",
+      "/assets/citiesImages/paris02.jpeg",
+      "/assets/citiesImages/paris03.jpeg",
+      "/assets/citiesImages/paris04.jpeg",
+      "/assets/citiesImages/paris05.jpeg",
     ],
     info: `Paris (French pronunciation: (listen)) is the capital and most populous city of France, with an estimated population of 2,165,423 residents in 2019 in an area of more than 105 km² (41 sq mi),[4] making it the 34th most densely populated city in the world in 2020.[5] Since the 17th century, Paris has been one of the world's major centres of finance, diplomacy, commerce, fashion, gastronomy, and science. For its leading role in the arts and sciences, as well as its very early system of street lighting, in the 19th century it became known as "the City of Light".[6] Like London, prior to the Second World War, it was also sometimes called the capital of the world. The City of Paris is the centre of the region and province of Île-de-France, or Paris Region, with an estimated population of 12,262,544 in 2019, or about 19% of the population of France.[7] The Paris Region had a GDP of €739 billion ($743 billion) in 2019, which is the highest in Europe.[8] According to the Economist Intelligence Unit Worldwide Cost of Living Survey, in 2021, Paris was the city with the second-highest cost of living in the world, tied with Singapore, and after Tel Aviv. [12]
 Paris is a major railway, highway, and air-transport hub served by two international airports: Paris–Charles de Gaulle (the second-busiest airport in Europe) and Paris–Orly.[10][11] Opened in 1900, the city's subway system, the Paris Métro, serves 5.23 million passengers daily;[12] it is the second-busiest metro system in Europe after the Moscow Metro. Gare du Nord is the 24th-busiest railway station in the world and the busiest located outside Japan, with 262 million passengers in 2015.[13] Paris is especially known for its museums and architectural landmarks: the Louvre received 2.8 million visitors in 2021, despite the long museum closings caused by the COVID-19 virus.[14] The Musée d'Orsay, Musée Marmottan Monet and Musée de l'Orangerie are noted for their collections of French Impressionist art. The Pompidou Centre Musée National d'Art Moderne has the largest collection of modern and contemporary art in Europe. The Musée Rodin and Musée Picasso exhibit the works of two noted Parisians. The historical district along the Seine in the city centre has been classified as a UNESCO World Heritage Site since 1991; popular landmarks there include the Cathedral of Notre Dame de Paris on the Île de la Cité, now closed for renovation after the 15 April 2019 fire. Other popular tourist sites include the Gothic royal chapel of Sainte-Chapelle, also on the Île de la Cité; the Eiffel Tower, constructed for the Paris Universal Exposition of 1889; the Grand Palais and Petit Palais, built for the Paris Universal Exposition of 1900; the Arc de Triomphe on the Champs-Élysées, and the hill of Montmartre with its artistic history and its Basilica of Sacré-Coeur.
@@ -181,11 +181,11 @@ Paris hosts several United Nations organisations including UNESCO, and other int
     department: "Paris",
     population: "	2,165,fwf",
     thumbnails: [
-      "./assets/citiesImages/paris01.jpeg",
-      "./assets/citiesImages/paris02.jpeg",
-      "./assets/citiesImages/paris03.jpeg",
-      "./assets/citiesImages/paris04.jpeg",
-      "./assets/citiesImages/paris05.jpeg",
+      "/assets/citiesImages/paris01.jpeg",
+      "/assets/citiesImages/paris02.jpeg",
+      "/assets/citiesImages/paris03.jpeg",
+      "/assets/citiesImages/paris04.jpeg",
+      "/assets/citiesImages/paris05.jpeg",
     ],
     info: `Paris (French pronunciation: (listen)) is the capital and most populous city of France, with an estimated population of 2,165,423 residents in 2019 in an area of more than 105 km² (41 sq mi),[4] making it the 34th most densely populated city in the world in 2020.[5] Since the 17th century, Paris has been one of the world's major centres of finance, diplomacy, commerce, fashion, gastronomy, and science. For its leading role in the arts and sciences, as well as its very early system of street lighting, in the 19th century it became known as "the City of Light".[6] Like London, prior to the Second World War, it was also sometimes called the capital of the world. The City of Paris is the centre of the region and province of Île-de-France, or Paris Region, with an estimated population of 12,262,544 in 2019, or about 19% of the population of France.[7] The Paris Region had a GDP of €739 billion ($743 billion) in 2019, which is the highest in Europe.[8] According to the Economist Intelligence Unit Worldwide Cost of Living Survey, in 2021, Paris was the city with the second-highest cost of living in the world, tied with Singapore, and after Tel Aviv. [12]
 Paris is a major railway, highway, and air-transport hub served by two international airports: Paris–Charles de Gaulle (the second-busiest airport in Europe) and Paris–Orly.[10][11] Opened in 1900, the city's subway system, the Paris Métro, serves 5.23 million passengers daily;[12] it is the second-busiest metro system in Europe after the Moscow Metro. Gare du Nord is the 24th-busiest railway station in the world and the busiest located outside Japan, with 262 million passengers in 2015.[13] Paris is especially known for its museums and architectural landmarks: the Louvre received 2.8 million visitors in 2021, despite the long museum closings caused by the COVID-19 virus.[14] The Musée d'Orsay, Musée Marmottan Monet and Musée de l'Orangerie are noted for their collections of French Impressionist art. The Pompidou Centre Musée National d'Art Moderne has the largest collection of modern and contemporary art in Europe. The Musée Rodin and Musée Picasso exhibit the works of two noted Parisians. The historical district along the Seine in the city centre has been classified as a UNESCO World Heritage Site since 1991; popular landmarks there include the Cathedral of Notre Dame de Paris on the Île de la Cité, now closed for renovation after the 15 April 2019 fire. Other popular tourist sites include the Gothic royal chapel of Sainte-Chapelle, also on the Île de la Cité; the Eiffel Tower, constructed for the Paris Universal Exposition of 1889; the Grand Palais and Petit Palais, built for the Paris Universal Exposition of 1900; the Arc de Triomphe on the Champs-Élysées, and the hill of Montmartre with its artistic history and its Basilica of Sacré-Coeur.
