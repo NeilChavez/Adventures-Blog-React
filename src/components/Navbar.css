@@ -1,16 +1,21 @@
 
 .header {
-  background-color: rgb(251, 179, 179);
+  background-color: rgba(0,0,0, 0.3);
+  position: fixed;
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 1rem;
   width: 100%;
+  z-index: 1;
+  opacity: 1;
+  visibility: visible;
+  transition: visibility 0.5s linear, opacity 0.5s linear;
 }
 .link-logo {
   font-size: 2.5rem;
   text-decoration: none;
-  color: rgb(57, 87, 220);
+  color: #FFF;
 }
 
 .navbar-icon {
@@ -43,7 +48,7 @@
 }
 
 .nav-item {
-  background-color: rgb(47, 46, 46);
+  background-color: transparent;
   list-style-type: none;
   text-align: center;
   width: 100%;
@@ -69,6 +74,11 @@
 
 .none {
   display: none;
+}
+.fade-out{
+  visibility: hidden;
+  opacity: 0;
+  pointer-events:none
 }
 @media screen and (min-width: 760px){
   .navbar{
