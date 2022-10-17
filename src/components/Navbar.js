@@ -8,24 +8,19 @@ export default function Navbar({ lastScrollY, setLastScroll }) {
   const [click, setclick] = useState(false);
   const [isMobile, setIsMobile] = useState(null);
   const [show, setShow] = useState(true);
-
-  useEffect(() => {
-    const controlNavbar = () => {
-      console.log(lastScrollY > 200);
+  const controlNavbar = () => {
+      console.log(lastScrollY)
       setLastScroll(window.scrollY);
+    if (lastScrollY > 200) {
+      setShow(false);
+    } else {
+      setShow(true);
+    }
 
-      if (lastScrollY > 200) {
-        setShow(false);
-      } else {
-        setShow(true);
-      }
-    };
-    window.addEventListener("scroll", controlNavbar);
+  };
+  useEffect(() => {
     getWindowWidth();
     controlNavbar();
-    return () => {
-      window.removeEventListener("scroll", controlNavbar);
-    };
   }, [lastScrollY]);
 
   const getWindowWidth = (e) => {
@@ -42,6 +37,8 @@ export default function Navbar({ lastScrollY, setLastScroll }) {
   window.addEventListener("resize", (e) => {
     getWindowWidth();
   });
+  window.addEventListener("scroll", controlNavbar);
+
 
   return (
     <header className={`${show ? "header" : "header fade-out"}`}>

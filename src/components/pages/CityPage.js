@@ -18,7 +18,6 @@ export default function CityPage({setLastScroll}) {
     window.scroll(0,0);
   }
   useEffect(()=>{
-    alert('sono use effect de citypage')
     scrollToZero();
   }, [city])
 

@@ -13,6 +13,7 @@ function App() {
     <>
       <Navbar
         setLastScroll={setLastScroll}
+        lastScrollY={lastScrollY}
       />
       <Routes>
         <Route path="/" element={<HomePage />}></Route>
