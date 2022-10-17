@@ -4,15 +4,29 @@ import "./Navbar.css";
 import "../App.css";
 import Button from "./Button";
 
-export default function Navbar() {
+export default function Navbar({ lastScrollY, setLastScroll }) {
   const [click, setclick] = useState(false);
   const [isMobile, setIsMobile] = useState(null);
-
   const [show, setShow] = useState(true);
-  const [lastScrollY, setLastScroll] = useState(0);
 
-  const handleClick = () => setclick(!click);
-  const closeMobileMenu = () => setclick(false);
+  useEffect(() => {
+    const controlNavbar = () => {
+      console.log(lastScrollY > 200);
+      setLastScroll(window.scrollY);
+
+      if (lastScrollY > 200) {
+        setShow(false);
+      } else {
+        setShow(true);
+      }
+    };
+    window.addEventListener("scroll", controlNavbar);
+    getWindowWidth();
+    controlNavbar();
+    return () => {
+      window.removeEventListener("scroll", controlNavbar);
+    };
+  }, [lastScrollY]);
 
   const getWindowWidth = (e) => {
     if (window.innerWidth > 760) {
@@ -21,28 +35,14 @@ export default function Navbar() {
       setIsMobile(true);
     }
   };
-  const controlNavbar = () =>{
-    console.log(lastScrollY > 200)
-    setLastScroll(window.scrollY);
-    
-    if(lastScrollY > 200) {
-      setShow(false);
-    }else{
-      setShow(true)
-    }
 
-  } 
+  const handleClick = () => setclick(!click);
+  const closeMobileMenu = () => setclick(false);
 
-  useEffect(() => {
+  window.addEventListener("resize", (e) => {
     getWindowWidth();
-    window.addEventListener("scroll", controlNavbar);
-   return ()=>{
-    window.removeEventListener('scroll', controlNavbar);
-   }
+  });
 
-  }, [lastScrollY]);
-
-  window.addEventListener("resize", getWindowWidth);
   return (
     <header className={`${show ? "header" : "header fade-out"}`}>
       <Link to="/" className="link-logo" onClick={closeMobileMenu}>

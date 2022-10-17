@@ -14,7 +14,7 @@ a{
     color: #000;
 }
 .btn--outline{
-    background-color: transparent;
+    background-color: rgba(0,0,0,.3);
     color: #fff;
     border: 1px solid var(--primary);
 }
