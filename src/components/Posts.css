@@ -1,7 +1,11 @@
-.posts-section{
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-    gap: 2rem;
-    border: thick solid yellowgreen;
-    padding: 5rem 0; 
+.posts-section {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 4.5rem ;
+  background-color: rgb(211, 220, 223);
+  padding: 5rem 3rem;
+}
+.post-section > *{
+  width: 20rem;
+  height: 20rem;
 }

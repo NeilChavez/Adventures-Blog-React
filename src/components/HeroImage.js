@@ -14,7 +14,7 @@ export default function HeroImage({urlImageHero}) {
     <div className="hero-image" style={stylesImg}>
       <div className="hero-image-opacity">
         <Button buttonStyle="btn--outline" buttonSize={"btn--large"} textBtn="Adventures Blog">
-
+          <h1>Adventures Blog</h1>
         </Button>
       </div>
     </div>

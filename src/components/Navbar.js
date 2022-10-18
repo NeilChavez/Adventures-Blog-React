@@ -11,7 +11,7 @@ export default function Navbar({ lastScrollY, setLastScroll }) {
   const controlNavbar = () => {
       console.log(lastScrollY)
       setLastScroll(window.scrollY);
-    if (lastScrollY > 200) {
+    if (lastScrollY > 100) {
       setShow(false);
     } else {
       setShow(true);
@@ -68,7 +68,7 @@ export default function Navbar({ lastScrollY, setLastScroll }) {
               className="nav-link-mobile"
               onClick={closeMobileMenu}
             >
-              Sign Up
+              Sing In
             </Link>
           </li>
         </ul>
@@ -77,8 +77,8 @@ export default function Navbar({ lastScrollY, setLastScroll }) {
         <i className={click ? "fa-solid fa-x" : "fa-solid fa-bars"}></i>
       </div>
       {!isMobile && (
-        <Button buttonStyle="btn--primary" buttonSize="btn--medium">
-          Sing-up!
+        <Button buttonStyle="btn--primary" buttonSize="btn--medium" textBtn="Sing-up">
+          <p>Sing In</p>
         </Button>
       )}
     </header>

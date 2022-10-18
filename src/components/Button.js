@@ -6,7 +6,7 @@ import "../App.css";
 const STYLES = ["btn--primary", "btn--outline"];
 const SIZE = ["btn--medium", "btn--large"];
 
-export default function Button({textBtn, buttonStyle, buttonSize }) {
+export default function Button({children, buttonStyle, buttonSize }) {
   const checkButtonStyle = STYLES.includes(buttonStyle)
     ? buttonStyle
     : STYLES[0];
@@ -18,8 +18,7 @@ export default function Button({textBtn, buttonStyle, buttonSize }) {
       to="/sign-up"
       className={`btn ${checkButtonStyle} ${checkButtonSize}`}
     >
-      <h1>{textBtn}</h1>
-      
+    {children}
     </Link>
   );
 }

@@ -11,6 +11,7 @@ html {
 }
 body {
   overflow-x: hidden;
+  background: linear-gradient(45deg, #8adae1, #4e5151);
 }
 img{
   max-width: 100%;
