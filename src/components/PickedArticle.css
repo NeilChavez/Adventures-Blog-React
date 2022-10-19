@@ -1,0 +1,29 @@
+.section-picked-article{
+    border: thick solid violet;
+    padding: 5rem 0;
+}
+
+.picked-article{
+    border: thick solid red;
+    padding: 1rem;
+    display: flex;
+    position: relative;
+}
+
+.picked-article-wrapper{
+    border: thick solid blue;
+    flex-basis: 50%;
+    padding: 5rem;
+}
+
+.picked-aritcle-figure{
+    border: thick solid yellow;
+    position: absolute;
+    right: 5rem;
+    top: -5rem;
+    width: 30%;
+
+
+
+    
+}
