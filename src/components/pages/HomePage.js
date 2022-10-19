@@ -1,4 +1,5 @@
 import HeroSection from "../HeroSection";
+import PickedArticle from "../PickedArticle";
 import Posts from "../Posts";
 
 export default function HomePage(){
@@ -7,6 +8,7 @@ export default function HomePage(){
         <>
             <HeroSection urlImageHero={urlImageHero}/>
             <Posts/>
+            <PickedArticle/>
         </>
     )
 }

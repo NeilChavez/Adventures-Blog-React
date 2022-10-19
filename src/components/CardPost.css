@@ -23,7 +23,7 @@
     width: 90%;
     height: 35%;
     transform: translateX(-50%);
-
+    padding-bottom: 1rem;
     background-color: white;
 }
 .card-paragraph{
@@ -32,7 +32,6 @@
     line-height: 1.5;
     text-align: center;
     padding: 0.5rem 0.5rem;
-    border: thick solid rgb(117, 85, 85);
     max-height: 70%;
     overflow: hidden;
     white-space: wrap;
