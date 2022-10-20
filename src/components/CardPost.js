@@ -1,5 +1,4 @@
 import "./CardPost.css";
-import DateField from "./DateField";
 import { Link } from "react-router-dom";
 import {capitalizeCity} from "../services/capitalizeCity"
 
@@ -29,7 +28,6 @@ export default function CardPost({
           {info}
           </p>
         </figcaption>
-        <DateField date={"22-08-2022"} />
       </figure>
     </Link>
   );
