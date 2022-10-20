@@ -1,6 +1,58 @@
-.trend-section{
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-    gap: 2rem ;
-    border: thick solid red;
+.trend-section-wrapper {
+  position: relative;
+  margin-top: 5rem;
+  height: 100%;
+  border: thick solid red;
+}
+
+.trend-section {
+  position: relative;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 2rem;
+  padding: 3rem;
+}
+.color-section {
+  background-color: rgb(253, 233, 233);
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+}
+.trend-section-title {
+  font-size: 2rem;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+.trend-subtitle{
+    color: rgb(101, 101, 101);
+    font-size: 1.2rem;
+}
+.title-wrapper{
+  position: absolute;
+  z-index: 1;
+  top: -6rem;
+  padding: 0rem 3rem 0rem;
+  /* border: thin solid green; */
+}
+.title-wrapper > *{
+    font-size: 1.5rem;
+}
+
+@media (min-width: 576px) {
+  .color-section {
+    width: 70%;
+  }
+  .title-wrapper{
+    top: -5rem;
+    font-size: 2rem;
+  }
+  .title-wrapper > *{
+    font-size: 2rem;
+}
+.trend-subtitle{
+    font-size: 1.7rem;
+}
 }
