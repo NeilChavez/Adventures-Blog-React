@@ -2,8 +2,9 @@
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
   gap: 4.5rem ;
-  background-color: rgb(211, 220, 223);
+  background-color: rgb(228, 255, 221);
   padding: 5rem 3rem;
+  border-radius: 1rem;
 }
 .post-section > *{
   width: 20rem;
