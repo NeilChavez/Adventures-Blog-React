@@ -11,6 +11,8 @@ html {
 }
 body {
   overflow-x: hidden;
+  background-color: #fafafa;
+  color : #3f3c3c !important;
 }
 img{
   max-width: 100%;

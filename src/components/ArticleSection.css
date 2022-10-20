@@ -2,7 +2,7 @@
   position: relative;
   margin-top: 5rem;
   height: 100%;
-  border: thick solid red;
+  /* border: thick solid red; */
 }
 
 .trend-section {
@@ -13,7 +13,7 @@
   padding: 3rem;
 }
 .color-section {
-  background-color: rgb(253, 233, 233);
+  background-color: #d7e5d9;
   position: absolute;
   top: 0;
   left: 0;

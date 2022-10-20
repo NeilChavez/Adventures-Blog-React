@@ -1,12 +1,12 @@
 .posts-section {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-  gap: 4.5rem ;
-  background-color: rgb(228, 255, 221);
+  gap: 4.5rem;
+  background-color: #d7e5d9;
   padding: 5rem 3rem;
   border-radius: 1rem;
 }
-.post-section > *{
+.post-section > * {
   width: 20rem;
   height: 20rem;
 }
