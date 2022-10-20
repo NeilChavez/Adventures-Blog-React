@@ -8,19 +8,10 @@ export default function Navbar({ lastScrollY, setLastScroll }) {
   const [click, setclick] = useState(false);
   const [isMobile, setIsMobile] = useState(null);
   const [show, setShow] = useState(true);
-  const controlNavbar = () => {
-      console.log(lastScrollY)
-      setLastScroll(window.scrollY);
-    if (lastScrollY > 100) {
-      setShow(false);
-    } else {
-      setShow(true);
-    }
 
-  };
   useEffect(() => {
     getWindowWidth();
-    controlNavbar();
+
   }, [lastScrollY]);
 
   const getWindowWidth = (e) => {
@@ -37,7 +28,7 @@ export default function Navbar({ lastScrollY, setLastScroll }) {
   window.addEventListener("resize", (e) => {
     getWindowWidth();
   });
-  window.addEventListener("scroll", controlNavbar);
+
 
 
   return (
