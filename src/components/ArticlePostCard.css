@@ -1,0 +1,32 @@
+.article-post{
+    border: thick solid green;
+    background-color: #fff;
+    position: relative;
+}
+.article-figcaption{
+    border: thick solid yellowgreen;
+    padding: 1rem;
+}
+.article-date{
+    padding: 0.5rem;
+    font-weight: 400;
+    font-weight: bold;
+    font-style: italic;
+    color: rgb(101, 101, 101);
+    font-size: 0.7rem;
+}
+.article-image{
+    border-top-left-radius:  1rem;
+    border-top-right-radius: 1rem;
+}
+.article-title{
+    font-size: 1.2rem;
+}
+.article-tag{
+    border-radius: 0.5rem;
+    background-color: rgb(120, 242, 242);
+    position: absolute;
+    top: 1rem;
+    left: 1rem;
+    padding: 0.2rem;
+}

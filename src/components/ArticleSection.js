@@ -1,4 +1,5 @@
 import ArticlePostCard from "./ArticlePostCard";
+import "./ArticleSection.css";
 
 export default function ArticleSection(){
 

@@ -1,5 +1,6 @@
 .trend-section{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-    gap: 4.5rem ;
+    gap: 2rem ;
+    border: thick solid red;
 }
