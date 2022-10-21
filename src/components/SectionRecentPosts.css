@@ -1,0 +1,17 @@
+.section-recent-post-wrapper {
+  background: linear-gradient(180deg, #eee 60%, #d7e5d9 60%);
+}
+
+.section-recent-post {
+  position: relative;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 2rem;
+  padding: 3rem;
+}
+.author-title {
+  text-align: center;
+}
+.author-paragraph {
+  padding: 1.5rem 1rem;
+}

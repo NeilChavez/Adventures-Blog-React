@@ -1,0 +1,19 @@
+.card-preview-post{
+    border: 1px solid #2a643c;
+    width: 100%;
+    /* width: 16rem; */
+}
+.card-title-wrapper{
+    /* border: thick solid yellowgreen; */
+    padding: 1rem 0 2rem
+}
+
+.card-preview-title{
+    background-color: #2a643c;
+    color: white; 
+    width: fit-content;
+    padding: 0.5rem 1rem;
+    border-radius: 0.5rem; 
+    margin-left: auto;
+    margin-right: auto
+}

@@ -1,0 +1,18 @@
+.small-card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.small-card-figure{
+    width: auto;
+    height: 100%;
+}
+.small-card-img{
+    object-fit: cover;
+    height: 100%;
+}
+
+.small-card-description{
+    font-size: 0.6rem;
+    padding: 0.5rem;
+}

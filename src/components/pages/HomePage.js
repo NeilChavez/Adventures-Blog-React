@@ -2,6 +2,8 @@ import ArticleSection from "../ArticleSection";
 import HeroSection from "../HeroSection";
 import PickedArticle from "../PickedArticle";
 import Posts from "../Posts";
+import SectionRecentPosts from "../SectionRecentPosts"
+
 
 export default function HomePage(){
      let urlImageHero = './assets/hero-image.jpg'
@@ -11,6 +13,7 @@ export default function HomePage(){
             <Posts/>
             <PickedArticle/>
             <ArticleSection/>
+            <SectionRecentPosts/>
         </>
     )
 }
