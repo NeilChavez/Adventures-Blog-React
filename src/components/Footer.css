@@ -1,10 +1,10 @@
 .footer {
   width: 100%;
-  border: thick solid red;
+  background-color: #26643b;
   height: 10rem;
+  color: white
 }
 .footer-wrapper {
-  border: thick solid orange;
   padding: 1rem;
   display: flex;
   height: 100%;
@@ -16,12 +16,10 @@
 }
 
 .footer-nav {
-  border: thick solid green;
   width: 100%;
   display: flex;
 }
 .footer-icons {
-  border: thick solid blue;
   width: 100%;
   display: flex;
   justify-content: center;
@@ -30,12 +28,15 @@
 }
 .footer-icons i {
   font-size: 1.7rem;
+  border: thin solid white;
+  border-radius: 50%;
+  padding: 1.5rem;
 }
 .footer-nav-list {
-  border: thick solid teal;
   flex-grow: 1;
   display: flex;
   justify-content: center;
   align-items: center;
   gap: 1rem;
+  font-weight: bold;
 }

@@ -21,9 +21,12 @@
 }
 .article-tag{
     border-radius: 0.5rem;
-    background-color: rgb(120, 242, 242);
+    background-color: #2a643c;
+    color: white;
+    font-weight: bold;
     position: absolute;
     top: 1rem;
     left: 1rem;
-    padding: 0.2rem;
+    padding: 0.4rem;
+    font-size: 0.8rem;
 }

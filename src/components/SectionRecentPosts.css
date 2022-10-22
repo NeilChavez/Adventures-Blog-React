@@ -1,5 +1,6 @@
 .section-recent-post-wrapper {
-  background: linear-gradient(180deg, #eee 60%, #d7e5d9 60%);
+  background: linear-gradient(180deg, transparent 65%, #d7e5d9 65%);
+  padding: 2rem 0 0 
 }
 
 .section-recent-post {
