@@ -7,26 +7,13 @@ import CityPage from "./components/pages/CityPage";
 import { useState } from "react";
 
 function App() {
-  const [lastScrollY, setLastScroll] = useState(0);
-
   return (
     <>
-      <Navbar
-        setLastScroll={setLastScroll}
-        lastScrollY={lastScrollY}
-      />
+      <Navbar />
       <Routes>
         <Route path="/" element={<HomePage />}></Route>
         <Route path="/city/*">
-          <Route
-            path=":city"
-            element={
-              <CityPage
-                lastScrollY={lastScrollY}
-                setLastScroll={setLastScroll}
-              />
-            }
-          />
+          <Route path=":city" element={<CityPage />} />
         </Route>
         <Route path="/products" element={<h1>Products page</h1>} />
         <Route path="/sign-up" element={<h1>Sing-up Page</h1>} />
