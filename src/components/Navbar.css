@@ -1,6 +1,6 @@
 
 .header {
-  background-color: rgba(0,0,0, 0.3);
+  background-color: #26643b;
   position: fixed;
   display: flex;
   justify-content: space-between;
@@ -31,6 +31,7 @@
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+  color: white;
 }
 
 .navbar {
@@ -63,6 +64,7 @@
   display:  flex;
   justify-content: center;
   align-items: center;
+  background-color: #26643b;
 }
 [class$="mobile"]{
   display: none;
@@ -75,11 +77,7 @@
 .none {
   display: none;
 }
-.fade-out{
-  visibility: hidden;
-  opacity: 0;
-  pointer-events:none
-}
+
 @media screen and (min-width: 760px){
   .navbar{
     position: relative;

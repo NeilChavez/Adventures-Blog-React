@@ -6,33 +6,15 @@ import Button from "./Button";
 
 export default function Navbar({ lastScrollY, setLastScroll }) {
   const [click, setclick] = useState(false);
-  const [isMobile, setIsMobile] = useState(null);
-  const [show, setShow] = useState(true);
 
-  useEffect(() => {
-    getWindowWidth();
-
-  }, [lastScrollY]);
-
-  const getWindowWidth = (e) => {
-    if (window.innerWidth > 760) {
-      setIsMobile(false);
-    } else {
-      setIsMobile(true);
-    }
-  };
 
   const handleClick = () => setclick(!click);
   const closeMobileMenu = () => setclick(false);
 
-  window.addEventListener("resize", (e) => {
-    getWindowWidth();
-  });
-
 
 
   return (
-    <header className={`${show ? "header" : "header fade-out"}`}>
+    <header className="header">
       <Link to="/" className="link-logo" onClick={closeMobileMenu}>
         <b>Neil</b>
       </Link>
@@ -53,25 +35,11 @@ export default function Navbar({ lastScrollY, setLastScroll }) {
               Products
             </Link>
           </li>
-          <li className="nav-item mobile">
-            <Link
-              to="/sign-up"
-              className="nav-link-mobile"
-              onClick={closeMobileMenu}
-            >
-              Sing In
-            </Link>
-          </li>
         </ul>
       </nav>
       <div className="navbar-icon" onClick={handleClick}>
         <i className={click ? "fa-solid fa-x" : "fa-solid fa-bars"}></i>
       </div>
-      {!isMobile && (
-        <Button buttonStyle="btn--primary" buttonSize="btn--medium" textBtn="Sing-up">
-          <p>Sing In</p>
-        </Button>
-      )}
     </header>
   );
 }

@@ -4,7 +4,6 @@ import Navbar from "./components/Navbar";
 import HomePage from "./components/pages/HomePage";
 import Footer from "./components/Footer";
 import CityPage from "./components/pages/CityPage";
-import { useState } from "react";
 
 function App() {
   return (
