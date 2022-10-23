@@ -5,7 +5,7 @@ import Posts from "../Posts";
 import HeroSection from "../HeroSection";
 import {useEffect} from "react";
 
-export default function CityPage({setLastScroll}) {
+export default function CityPage() {
 
   let { city } = useParams();
   let cityToRender = getCityByName(city);
@@ -14,7 +14,6 @@ export default function CityPage({setLastScroll}) {
   let cityCapitalized = capitalizeCity(name);
   let [image, heroUrl] = thumbnails;
   const scrollToZero = () =>{
-    setLastScroll(0);
     window.scroll(0,0);
   }
   useEffect(()=>{
