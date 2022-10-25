@@ -1,11 +1,12 @@
 
 .header {
   background-color: #26643b;
-  position: fixed;
+  position: sticky;
+  top: 0;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 1rem;
+  padding: 0 0.5rem;
   width: 100%;
   z-index: 1;
   opacity: 1;
@@ -89,12 +90,13 @@
   .nav-list-items{
     display: flex;
     padding: 0 2rem;
-    height: 5rem;
+    height: 4rem;
+    align-items: center;
     /* border: thick solid blue; */
   }
   .nav-item{
     border: thick solid white;
-    height: auto;
+    height: 3rem;
   }
   .navbar-icon{
     display: none;
