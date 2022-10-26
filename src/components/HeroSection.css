@@ -1,0 +1,32 @@
+.hero-section {
+  border: thick solid red;
+}
+.hero-grid {
+  max-width: 700px;
+  border: thick solid green;
+  padding: 3rem 0;
+  display: grid;
+  gap: 1.5rem;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+
+}
+.hero-grid > .article-post{
+  border: thick solid blue;
+}
+
+.hero-grid > .article-post:first-of-type{
+  grid-column: 1/3;
+  grid-row: 1/2
+}
+
+.hero-grid > .article-post:nth-child(2){
+  grid-column: 3/5;
+  grid-row: 1/2
+}
+
+.hero-grid > .article-post:nth-child(3){
+  grid-column: 1/5;
+  grid-row: 2/4;
+  border: thick solid yellowgreen
+}

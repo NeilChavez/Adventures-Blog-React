@@ -11,7 +11,7 @@ export default function HeroSection() {
           textArticle="Titulo en el hero"
           img={"./assets/citiesImages/venezia02.jpeg"}
         />
-        <div>
+
           <ArticlePostCard
             textArticle="Titulo en el hero"
             img={"./assets/citiesImages/venezia02.jpeg"}
@@ -20,7 +20,6 @@ export default function HeroSection() {
             textArticle="Titulo en el hero"
             img={"./assets/citiesImages/venezia02.jpeg"}
           />
-        </div>
       </article>
     </section>
   );
