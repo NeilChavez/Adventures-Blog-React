@@ -4,7 +4,7 @@
 .hero-grid {
   max-width: 700px;
   border: thick solid green;
-  padding: 3rem 0;
+  padding: 0rem 0;
   display: grid;
   gap: 1.5rem;
   grid-template-columns: repeat(4, 1fr);
@@ -30,3 +30,13 @@
   grid-row: 2/4;
   border: thick solid yellowgreen
 }
+
+.hero-section .card-preview-post{
+  border: thick solid greenyellow
+}
+
+@media (min-width: 576px) { 
+  .hero-section {
+    display: flex
+  }
+ }
