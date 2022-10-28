@@ -20,6 +20,9 @@ img{
 li{
   list-style-type: none;
 }
+a{
+  display: block;
+}
 .container{
   max-width: 	960px;
   margin-left: auto;

@@ -1,0 +1,29 @@
+.card {
+  border: thick solid blue;
+  position: relative;
+  display: block;
+}
+.card-image-component {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  object-fit: cover;
+}
+.card-category {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  border: thin solid greenyellow;
+  padding: 0.5rem;
+}
+
+.card-data-container {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  z-index: 3;
+  border: thick solid orange;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.3);
+}

@@ -1,9 +1,9 @@
 import { Link } from "react-router-dom";
-
+import "./Card.css"
 export default function Card() {
   return (
     <Link className="card">
-      <img src="https://placeimg.com/640/480/any" alt="test" />
+      <img className=".card-image-component" src="./assets/citiesImages/torino03.jpeg" alt="test" />
       <span className="card-category">Category</span>
       <div className="card-data-container">
         <div className="card-data">
