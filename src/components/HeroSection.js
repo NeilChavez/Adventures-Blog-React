@@ -1,9 +1,9 @@
 import React from "react";
 import "../App.css";
 import "./HeroSection.css";
-import ArticlePostCard from "./ArticlePostCard";
 import RecentPosts from "./RecentPosts";
 import SmallCard from "./SmallCard";
+import Card from "./Card"
 
 let articles = [
   "Back Home After Trip with Friends",
@@ -15,19 +15,7 @@ export default function HeroSection() {
   return (
     <section className="hero-section">
       <article className="hero-grid">
-        <ArticlePostCard
-          textArticle="Titulo en el hero"
-          img={"./assets/citiesImages/venezia02.jpeg"}
-        />
-
-        <ArticlePostCard
-          textArticle="Titulo en el hero"
-          img={"./assets/citiesImages/venezia02.jpeg"}
-        />
-        <ArticlePostCard
-          textArticle="Titulo en el hero"
-          img={"./assets/citiesImages/venezia02.jpeg"}
-        />
+      <Card/>
       </article>
       <RecentPosts>
         {articles.map((article) => {
