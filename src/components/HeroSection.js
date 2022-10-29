@@ -3,7 +3,7 @@ import "../App.css";
 import "./HeroSection.css";
 import RecentPosts from "./RecentPosts";
 import SmallCard from "./SmallCard";
-import Card from "./Card"
+import Card from "./Card";
 
 let articles = [
   "Back Home After Trip with Friends",
@@ -15,7 +15,9 @@ export default function HeroSection() {
   return (
     <section className="hero-section">
       <article className="hero-grid">
-      <Card/>
+        <Card />
+        <Card /> 
+        <Card />
       </article>
       <RecentPosts>
         {articles.map((article) => {
