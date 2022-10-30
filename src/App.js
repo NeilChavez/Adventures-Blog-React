@@ -3,7 +3,6 @@ import "./App.css";
 import Navbar from "./components/Navbar";
 import HomePage from "./components/pages/HomePage";
 import Footer from "./components/Footer";
-import CityPage from "./components/pages/CityPage";
 
 function App() {
   return (
@@ -11,9 +10,7 @@ function App() {
       <Navbar />
       <Routes>
         <Route path="/" element={<HomePage />}></Route>
-        <Route path="/city/*">
-          <Route path=":city" element={<CityPage />} />
-        </Route>
+
         <Route path="/products" element={<h1>Products page</h1>} />
         <Route path="/sign-up" element={<h1>Sing-up Page</h1>} />
       </Routes>
