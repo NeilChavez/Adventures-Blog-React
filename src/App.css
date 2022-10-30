@@ -9,28 +9,34 @@ html {
   margin: 0;
   text-decoration: none;
 }
+:root {
+  --light-gray: #eeeded;
+  --medium-gray: #f1f1f1;
+  --dark-gray: #515151;
+  --text-color: #606060;
+  --hover-light-gray: #fff;
+}
 body {
   overflow-x: hidden;
   background-color: #fafafa;
-  color : #3f3c3c !important;
+  color: #3f3c3c !important;
 }
-img{
+img {
   max-width: 100%;
 }
-li{
+li {
   list-style-type: none;
 }
-a{
+a {
   display: block;
 }
-.container{
-  max-width: 	960px;
+.container {
+  max-width: 960px;
   margin-left: auto;
   margin-right: auto;
 }
 
-
-.container-m{
+.container-m {
   max-width: 1024px;
   margin-left: auto;
   margin-right: auto;
