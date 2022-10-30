@@ -1,7 +1,7 @@
 import ArticleSection from "../ArticleSection";
 import HeroSection from "../HeroSection";
 import PickedArticle from "../PickedArticle";
-import Posts from "../Posts";
+
 import SectionRecentPosts from "../SectionRecentPosts"
 
 
@@ -10,7 +10,6 @@ export default function HomePage(){
     return(
         <>
             <HeroSection urlImageHero={urlImageHero}/>
-            <Posts/>
             <PickedArticle/>
             <ArticleSection/>
             <SectionRecentPosts/>

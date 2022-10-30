@@ -1,7 +1,6 @@
 import { useParams } from "react-router-dom";
 import { capitalizeCity } from "../../services/capitalizeCity";
 import { getCityByName } from "../../services/getCityByName";
-import Posts from "../Posts";
 import HeroSection from "../HeroSection";
 import {useEffect} from "react";
 
@@ -24,7 +23,6 @@ export default function CityPage() {
   return (
     <>
       <HeroSection urlImageHero={heroUrl} />
-      <Posts/>
     </>
   );
 }
